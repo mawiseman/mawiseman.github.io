@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Generating pfx file using p7s and key"
+title:  "Generate a pfx using p7s and key"
 categories: iis ssl
 author: Mark Wiseman
+comments: true
 ---
 It's the end of 2019 and I can't believe I am dealing with this again. 
 
@@ -19,7 +20,7 @@ Files form client
 - my_domain.p7s
 - my_domain.key
 
-## Generate PKS
+## Generate the PKS
 
 {% highlight powershell %}
 # First generate a cer file
