@@ -247,6 +247,7 @@ DEPENDENCIES
   github-pages
   jekyll-paginate
   jekyll-remote-theme
+  jekyll-sitemap
   wdm (>= 0.1.0)
 
 BUNDLED WITH
