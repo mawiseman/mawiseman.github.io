@@ -6,9 +6,7 @@ author: Mark Wiseman
 comments: true
 ---
 
-Deployment plans are an essential part of Software development but if you ask any developer to actually do one expect to see some eyes rolling! 
-
-Today I would like to share the tempaltes that I regularly use in Conflunce to make this processeasier to manage and report on.
+Deployment plans are an essential part of Software development but if you ask any developer to actually do one expect to see some eyes rolling! This article details the tempaltes that I regularly use in Conflunce to make this process easier to manage and report on.
 
 ## The Tempaltes in Action
 
