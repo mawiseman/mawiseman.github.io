@@ -72,7 +72,7 @@ Using `@currentDate` will prefix the deployment plan's name with todays date whi
 <img alt="Confluence Deployment Plan Page Properties Report" src="{{ site.url }}/assets/img/2020-01-09/confluence-deployment-plan-page-properties-report.png" width="500px" />
 
 The customisation we use here are
-- Lable: `deployment-plan`
+- Label: `deployment-plan`
 - In space: `Current space`
 - Columns to Show: `Author, Deployment Date, Version, Status`
 - Sort By: `Deployment Date`
