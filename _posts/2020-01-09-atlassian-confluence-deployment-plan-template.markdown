@@ -8,7 +8,7 @@ comments: true
 
 Deployment plans are an essential part of Software development but if you ask any developer to actually do one expect to see some eyes rolling! This article details the tempaltes that I regularly use in Conflunce to make this process easier to manage and report on.
 
-## The Tempaltes in Action
+## The Templates in Action
 
 | <a href="{{ site.url }}/assets/img/2020-01-09/confluence-deployment-plan-overview.png" target="_blank">![Confluence Deployment Plan Overview]({{ site.url }}/assets/img/2020-01-09/confluence-deployment-plan-overview-thumb.png)</a> | | <a href="{{ site.url }}/assets/img/2020-01-09/confluence-deployment-plan.png" target="_blank">![Confluence Deployment Plan]({{ site.url }}/assets/img/2020-01-09/confluence-deployment-plan-thumb.png)</a> |
 
