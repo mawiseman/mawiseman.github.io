@@ -18,7 +18,7 @@ To ensure this is a repeatable process create a template in Confluence for this 
 
 I can't stess enough here how valuable it is to use the Templates helpers. It will ensure that the authors of these templates know what values they should be using / what is expected in each section.
 
-I will only talk to the key configuration elements here. The rest is really just content
+I will only talk to the key configuration elements here. The rest is really just content.
 
 ### Page Properties Macro
 
