@@ -54,7 +54,7 @@ The default query I set in the template looks like this: `project = PHO fixVersi
 
 <img alt="Confluence Deployment Plan Labels" src="{{ site.url }}/assets/img/2020-01-09/confluence-deployment-plan-labels.png" width="500px" />
 
-It's important that our tempalte has the `deployment-plan` label added by default. Otherwise it won't show up in our report.
+It's important that our template has the `deployment-plan` label added by default. Otherwise it won't show up in our report.
 
 ## Deployment Plan Overviews
 
