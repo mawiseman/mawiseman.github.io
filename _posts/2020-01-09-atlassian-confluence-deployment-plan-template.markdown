@@ -6,7 +6,7 @@ author: Mark Wiseman
 comments: true
 ---
 
-Deployment plans are an essential part of Software development but if you ask any developer to actually do one expect to see some eyes rolling! This article details the tempaltes that I regularly use in Conflunce to make this process easier to manage and report on.
+Deployment plans are an essential part of Software development but if you ask any developer to actually do one expect to see some eyes rolling! This article details the templates that I regularly use in Confluence to make this process easier to manage and report on.
 
 ## The Templates in Action
 
@@ -16,7 +16,7 @@ Deployment plans are an essential part of Software development but if you ask an
 
 To ensure this is a repeatable process create a template in Confluence for this page. If you can't, create a blank page that can be copied each time.
 
-I can't stess enough here how valuable it is to use the Templates helpers. It will ensure that the authors of these templates know what values they should be using / what is expected in each section.
+I can't stress enough here how valuable it is to use the Templates helpers. It will ensure that the authors of these templates know what values they should be using / what is expected in each section.
 
 I will only talk to the key configuration elements here. The rest is really just content.
 
@@ -26,7 +26,7 @@ I will only talk to the key configuration elements here. The rest is really just
 
 At the top of the page we need a Page Properties Macro. This is what will allow us to produce the deployment plan overview report.
 
-In the template I include all the valid status' of a deployment plan for reference. But you can see how the template helper text will be valuable as this deployment plan moves through each environment.
+In the template I include all the valid statuses  of a deployment plan for reference. But you can see how the template helper text will be valuable as this deployment plan moves through each environment.
 
 ### Description of Change: Jira Issue/Filter Macro
 
@@ -44,9 +44,9 @@ I like to use this technique to track manual steps because if developers are con
 
 If they maintain any manual steps within the related ticket(s) everything is moved as one. 
 
-So to support this technique
+So, to support this technique
 - Any JIRA tickets that require manual deployments need to be tagged with `deployment-steps`
-- The deployment steps should then be recoded in the ticket. I prefer to have a separate field but if that is not an option you can do things like putting them in a comment with a bold `Deployment Steps` title
+- The deployment steps should then be recorded in the ticket. I prefer to have a separate field but if that is not an option you can do things like putting them in a comment with a bold `Deployment Steps` title
 
 The default query I set in the template looks like this: `project = PHO fixVersion = 'XXX' AND labels = deployment-steps ORDER BY priority DESC`
 
@@ -58,16 +58,16 @@ It's important that our tempalte has the `deployment-plan` label added by defaul
 
 ## Deployment Plan Overviews
 
-### Create Deployment Plan : Create from Template Macro
+### Create Deployment Plan: Create from Template Macro
 
 <img alt="Confluence Deployment Plan Create from Template" src="{{ site.url }}/assets/img/2020-01-09/confluence-deployment-plan-create-from-template-macro.png" width="500px" />
 
-The only customisation i use here is for Template Name. 
+The only customisation I use here is for Template Name. 
 - Template name: `@currentDate Deployment Plan`
 
-Using `@currentDate` will prefix the deployment plan's name with todays date which helps for default sorting.
+Using `@currentDate` will prefix the deployment plan's name with today's date which helps for default sorting.
 
-### Deployment Plan List : Page Properties Report
+### Deployment Plan List: Page Properties Report
 
 <img alt="Confluence Deployment Plan Page Properties Report" src="{{ site.url }}/assets/img/2020-01-09/confluence-deployment-plan-page-properties-report.png" width="500px" />
 
