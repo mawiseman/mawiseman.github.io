@@ -38,14 +38,14 @@ choco install chocolatey-packages.config -y
 
 1. Download SQL Server from [https://my.visualstudio.com](https://my.visualstudio.com){:target="_blank"}
 1. Mount the ISO
-1. Download **SQLServer2106ConfigurationFile.ini** file to **c:\temp** [https://gist.github.com/mawiseman/e6e4143ddafa55cd9d67253af31e9937](https://gist.github.com/mawiseman/e6e4143ddafa55cd9d67253af31e9937){:target="_blank"}
+1. Download **SQLServer2016ConfigurationFile.ini** file to **c:\temp** [https://gist.github.com/mawiseman/e6e4143ddafa55cd9d67253af31e9937](https://gist.github.com/mawiseman/e6e4143ddafa55cd9d67253af31e9937){:target="_blank"}
 1. Open **Powershell** as an **Administrator** and run the following script
 1. Download and Install [SQL Server Management Studio](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms){:target="_blank"}
 
 {% highlight powershell %}
 $saPassword = "YOUR-UNIQUE-PASSWORD"
 
-.\setup.exe /CONFIGURATIONFILE=C:\temp\SQLServer2106ConfigurationFile.ini /SQLSYSADMINACCOUNTS=$([System.Security.Principal.WindowsIdentity]::GetCurrent().Name) /SAPWD=$saPassword
+.\setup.exe /CONFIGURATIONFILE=C:\temp\SQLServer2016ConfigurationFile.ini /SQLSYSADMINACCOUNTS=$([System.Security.Principal.WindowsIdentity]::GetCurrent().Name) /SAPWD=$saPassword
 {% endhighlight %}
 
 ## Install Node Modules
