@@ -13,6 +13,14 @@ The applications listed below are what I use everyday as a Sitecore developer yo
 
 Here is the process.
 
+## Enable PowerShell Scripts
+
+1. Open **Powershell** as an **Administrator** and run the following script
+
+{% highlight powershell %}
+Set-ExecutionPolicy Bypass
+{% endhighlight %}
+
 ## Install PowerShell Modules & Windows Components
 
 1. Download **powershell-iis-and-default-modules.ps1** file to **c:\temp** [https://gist.github.com/mawiseman/cab07877576d5122ab3d7690266110b5](https://gist.github.com/mawiseman/cab07877576d5122ab3d7690266110b5){:target="_blank"}
