@@ -27,17 +27,17 @@ The process to generate these documents with PlantUML is really simple.
 
 1. Include a reference to the appropriate C4-PlantUML extension from [RicardoNiepel](https://github.com/RicardoNiepel/C4-PlantUML) at the top of our document
 
-| Level | C$-PlantUML reference|
+| Level | C4-PlantUML reference|
 | - | - |
-| Content |https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Context.puml |
-| Content |https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Context.puml |
-| Content |https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Context.puml |
+| Content | [https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Context.puml]() |
+| Content | [https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Context.puml]() |
+| Content | [https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Context.puml]() |
 
 ```
 !includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Context.puml
 ```
 
-2. Start referencing the custom types included in the extensions
+1. Start referencing the custom types included in the extensions
 ```
 Person(personAlias, "Label", "Optional Description")
 Container(containerAlias, "Label", "Technology", "Optional Description")
