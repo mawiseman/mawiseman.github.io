@@ -25,7 +25,7 @@ Make sure you watch this video by Simon Brown the creator of the model because i
 
 The process to generate these documents with PlantUML is really simple.
 
-1. Include a reference to the appropriate C4-PlantUML extension from [RicardoNiepel](https://github.com/RicardoNiepel/C4-PlantUML) at the top of our document
+1. Include a reference to the appropriate C4-PlantUML extension from [RicardoNiepel](https://github.com/RicardoNiepel/C4-PlantUML) at the top of our document.
 
 | Level | C4-PlantUML reference|
 | - | - |
@@ -37,14 +37,14 @@ The process to generate these documents with PlantUML is really simple.
 !includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Context.puml
 ```
 
-1. Start referencing the custom types included in the extensions
+2. Start referencing the custom types included in the extensions.
 ```
 Person(personAlias, "Label", "Optional Description")
 Container(containerAlias, "Label", "Technology", "Optional Description")
 System(systemAlias, "Label", "Optional Description")
 ```
 
-3. Start adding the required relationships
+3. Start adding the required relationships,
 ```
 Rel(personAlias, containerAlias, "Label", "Optional Technology")
 ```
@@ -98,7 +98,7 @@ Configure PlantUML
 
 ## Formatting PlantUML
 
-I like to save my documents using the *.puml extension
+Here is an example of how simple it is to author these documents in VS Code. Also I like to save my documents using the *.puml extension.
 
 <img alt="PlantUML c4model diagram generation" src="{{ site.url }}/assets/img/2020-04-22/PlantUML-c4model-generation.gif" width="500px" />
 
