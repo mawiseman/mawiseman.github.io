@@ -12,7 +12,7 @@ I decided to do a search and find out what is happening out there these days whe
 
 Very briefley the c4model provides 4 (as is c4) levels of abstraction for documenting a project each. The top layer provides a limited set of components to keep the document simple. As we step down into each layer a few more components are added so that we can descripe each piece in more details.
 
-<img alt="c4model overview" src="{{ site.url }}/assets/img/2020-04-22/c4model-overview.png" width="500px" />
+<img alt="c4model overview" src="{{ site.url }}/assets/img/2020-04-22/c4-overview.png" width="500px" />
 
 
 The components are far simpler than tring to remember all the permutations of UML yet detaild enough to provide a consistent language for describing your application
@@ -20,16 +20,44 @@ The components are far simpler than tring to remember all the permutations of UM
 Make sure you watch this video by Simon Brown the creator of the model because its a great introduction.
 
 <iframe width="560" height="315"
-    src="https://www.youtube.com/watch?v=x2-rSnhpw0g " 
+    src="https://www.youtube.com/embed/x2-rSnhpw0g " 
     frameborder="0" 
     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
     allowfullscreen></iframe>
+
+## Combining c4 with PlantUML
+
+The process to generate these documents with PlantUML is really simple.
+
+All we need to do is
+
+
+Include a reference to the appropriate C4-PlantUML extension from (RicardoNiepel)[https://github.com/RicardoNiepel/C4-PlantUML] at the top of our document
+- Content: https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Context.puml
+- Container: https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Container.puml
+- Component: https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Component.puml
+
+```
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Context.puml
+```
+
+Start referencing the custom types included in the extensions
+```
+Person(personAlias, "Label", "Optional Description")
+Container(containerAlias, "Label", "Technology", "Optional Description")
+System(systemAlias, "Label", "Optional Description")
+```
+
+Start adding the required relationships
+```
+Rel(personAlias, containerAlias, "Label", "Optional Technology")
+```
 
 ## Testing it out online
 
 You can esily test this process out online simply by using the free PlantUml Editor.
 
-- Navigate to: https://www.planttext.com/
+- Navigate to: [https://www.planttext.com/](https://www.planttext.com/)
 - Paste in this example Container diagram
 - Play around!
 
@@ -79,6 +107,6 @@ I like to save my documents using the *.puml extension
 <img alt="PlantUML c4model diagram generation" src="{{ site.url }}/assets/img/2020-04-22/PlantUML-c4model-generation.gif" width="500px" />
 
 ## References
-- c4model: https://c4model.com/
-- c4model PlantUML Extension: https://github.com/RicardoNiepel/C4-PlantUML
-- VS Code Plant UML Extension: https://github.com/qjebbs/vscode-plantuml.git
+- c4model: [https://c4model.com/](https://c4model.com/)
+- c4model PlantUML Extension: [https://github.com/RicardoNiepel/C4-PlantUML](https://github.com/RicardoNiepel/C4-PlantUML)
+- VS Code Plant UML Extension: [https://github.com/qjebbs/vscode-plantuml.git](https://github.com/qjebbs/vscode-plantuml.git)
