@@ -29,26 +29,26 @@ Make sure you watch this video by Simon Brown the creator of the model because i
 
 The process to generate these documents with PlantUML is really simple.
 
-All we need to do is
+1. Include a reference to the appropriate C4-PlantUML extension from [RicardoNiepel](https://github.com/RicardoNiepel/C4-PlantUML) at the top of our document
 
-
-Include a reference to the appropriate C4-PlantUML extension from (RicardoNiepel)[https://github.com/RicardoNiepel/C4-PlantUML] at the top of our document
-- Content: https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Context.puml
-- Container: https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Container.puml
-- Component: https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Component.puml
+| Level | C$-PlantUML reference|
+| - | - |
+| Content |https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Context.puml |
+| Content |https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Context.puml |
+| Content |https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Context.puml |
 
 ```
 !includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Context.puml
 ```
 
-Start referencing the custom types included in the extensions
+2. Start referencing the custom types included in the extensions
 ```
 Person(personAlias, "Label", "Optional Description")
 Container(containerAlias, "Label", "Technology", "Optional Description")
 System(systemAlias, "Label", "Optional Description")
 ```
 
-Start adding the required relationships
+3. Start adding the required relationships
 ```
 Rel(personAlias, containerAlias, "Label", "Optional Technology")
 ```
