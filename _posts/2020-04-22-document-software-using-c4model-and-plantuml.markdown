@@ -16,7 +16,7 @@ The top layer provides a limited set of components to keep the document simple. 
 
 <img alt="c4model overview" src="{{ site.url }}/assets/img/2020-04-22/c4-overview.png" />
 
-The components are far simpler than tring to remember all the permutations of UML yet detaild enough to provide a consistent language for describing your application
+The components are far simpler to remember than all the permutations of UML yet detaild enough to provide a consistent language for describing your application.
 
 Make sure you watch this video by Simon Brown (the creator of the model) because its a great introduction.
 
@@ -28,14 +28,15 @@ The process to generate these documents with PlantUML is really simple thanks to
 
 ### 1. Include a reference to the required extension from at the top of our document.
 
-| Level | C4-PlantUML reference|
-| - | - |
-| Content | [https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Context.puml]() |
-| Container | [https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Container.puml]() |
-| Component | [https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Component.puml]() |
-
 ```
+' Context Diagram
 !includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Context.puml
+
+' Container Diagram
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Container.puml
+
+' Component Diagram
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/release/1-0/C4_Component.puml
 ```
 
 ### 2. Start adding the custom types included in the extension for your diagram.
@@ -72,7 +73,7 @@ Rel(personAlias, containerAlias, "Label", "Optional Technology")
 
 ## Setting it up locally
 
-This process allows us to author the diagram directly from Visual Studio Code. I like it because everything id local, your business sensitive diagrams aren't going out to the interwebs.
+This process allows us to author the diagram directly from Visual Studio Code. I like it because everything is local, your business sensitive diagrams aren't going out to the interwebs.
 
 ### Chocolatey
 
