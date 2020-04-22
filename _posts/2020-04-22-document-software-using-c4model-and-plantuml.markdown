@@ -12,7 +12,7 @@ I decided to do a search and find out what is happening out there these days whe
 
 Very briefley the c4model provides 4 (as is c4) levels of abstraction for documenting a project each. The top layer provides a limited set of components to keep the document simple. As we step down into each layer a few more components are added so that we can descripe each piece in more details.
 
-<img alt="c4model overview" src="{{ site.url }}/assets/img/2020-04-22/c4-overview.png" width="500px" />
+<img alt="c4model overview" src="{{ site.url }}/assets/img/2020-04-22/c4-overview.png" />
 
 
 The components are far simpler than tring to remember all the permutations of UML yet detaild enough to provide a consistent language for describing your application
