@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Documenting Software Architecture Using c4model and PlantUML"
+title:  "Documenting Software Architecture using the c4model and PlantUML"
 categories: documentation c4model plantuml
 author: Mark Wiseman
 comments: true
