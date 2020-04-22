@@ -19,11 +19,7 @@ The components are far simpler than tring to remember all the permutations of UM
 
 Make sure you watch this video by Simon Brown the creator of the model because its a great introduction.
 
-<iframe width="560" height="315"
-    src="https://www.youtube.com/embed/x2-rSnhpw0g " 
-    frameborder="0" 
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen></iframe>
+{% include youtubePlayer.html id="x2-rSnhpw0g" %}
 
 ## Combining c4 with PlantUML
 
