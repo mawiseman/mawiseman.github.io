@@ -6,7 +6,7 @@ author: Mark Wiseman
 comments: true
 ---
 
-As someone who has aways loved process improvement and finding the patterns is what we do, I am constantly on the lookout for ways to do things better. On a recent project I was documenting the Software Architecture... again, and I so I opend Visio... again and that same dread of "How the hell am I going to document this so it makes sense" hit me. 
+As someone who has always loved process improvement and finding the patterns is what we do, I am constantly on the lookout for ways to do things better. On a recent project I was documenting the Software Architecture... again, and I so I opened Visio... again and that same dread of "How the hell am I going to document this so it makes sense" hit me. 
 
 I decided to do a search and find out what other people are doing now when I came across the [c4model](https://c4model.com/) which can be easily authored using one of my favourite documentation tools [PlantUml](https://plantuml.com/). I couldn't help but jump in.
 
@@ -16,7 +16,7 @@ The top layer provides a limited set of components to keep the document simple. 
 
 <img alt="c4model overview" src="{{ site.url }}/assets/img/2020-04-22/c4-overview.png" />
 
-The components are far simpler to remember than all the permutations of UML yet detaild enough to provide a consistent language for describing your application.
+The components are far simpler to remember than all the permutations of UML yet detailed enough to provide a consistent language for describing your application.
 
 Make sure you watch this video by Simon Brown (the creator of the model) because its a great introduction.
 
@@ -53,7 +53,7 @@ Rel(personAlias, containerAlias, "Label", "Optional Technology")
 
 ## Testing it out online
 
-You can esily test this process out online simply by using the free PlantUml Editor.
+You can easily test this process out online simply by using the free PlantUml Editor.
 
 - Navigate to: [https://www.planttext.com/](https://www.planttext.com/)
 - Paste the example Container diagram below
@@ -73,7 +73,7 @@ Rel(personAlias, containerAlias, "Label", "Optional Technology")
 
 ## Setting it up locally
 
-This process allows us to author the diagram directly from Visual Studio Code. I like it because everything is local, your business sensitive diagrams aren't going out to the interwebs.
+This process allows us to author the diagram directly from Visual Studio Code. I like it because everything is local, your business-sensitive diagrams aren't going out to the interwebs.
 
 ### Chocolatey
 
@@ -93,7 +93,7 @@ ext install plantuml
 
 Configure PlantUML
 - Navigate to: **Extensions**
-- Select: **PlantUML** > **Etension Settings**
+- Select: **PlantUML** > **Extension Settings**
 - Update: 
   - Setting: **PlantUML: JAR**
   - Value: **C:\ProgramData\chocolatey\lib\plantuml\tools\plantuml.jar**
