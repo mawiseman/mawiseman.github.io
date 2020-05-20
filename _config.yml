@@ -42,6 +42,20 @@ url: "https://wiseman.net.au" # the base hostname & protocol for your site, e.g.
 twitter_username: markwiseman
 github_username:  mawiseman
 
+twitter:
+    username: markwiseman
+    card: summary
+
+logo: /assets/img/mark.wiseman.jpg
+
+social:
+  name: Mark Wiseman
+  links:
+    - https://twitter.com/mawiseman
+    - https://www.linkedin.com/in/markwiseman
+    - https://www.instagram.com/mawiseman
+    - https://www.facebook.com/mark.wiseman
+
 # Build settings
 # theme: minima
 #plugins:
