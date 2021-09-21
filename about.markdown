@@ -7,7 +7,7 @@ author: Mark Wiseman
 
 I'm just another dev trying to find a place to put my thoughts...
 
-Currently I am the .Net Technical Lead at the [Digital Innovation Studio](https://www.avanade.com/en-au/about-avanade/approach/digital-studio) for Avanade in Australia working in the CMS space ([Sitecore](https://www.sitecore.com/), [Episerver](https://www.episerver.com/)) for some of Australias largest Automotive, Energy and Retail businesses.
+Currently I am a Technical Director and Sitecore Practice Lead at [Merkle Australia](https://www.merkleinc.com/au/). My passion is helping to deliver Content Management Systems  ([Sitecore](https://www.sitecore.com/), [Episerver](https://www.episerver.com/), [Umbraco](https://umbraco.com/)) for some of Australias largest companies across Government, Automotive, Energy and Retail.
 
 You can find me in these places
 - [LinkedIn](https://www.linkedin.com/in/markwiseman/){:target="_blank"}
