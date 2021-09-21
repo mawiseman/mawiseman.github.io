@@ -5,7 +5,7 @@ permalink: /about/
 author: Mark Wiseman
 ---
 
-I'm just another dev trying to find a place to put my thoughts...
+I'm just another technical person trying to find a place to put my thoughts...
 
 Currently I am a Technical Director and Sitecore Practice Lead at [Merkle Australia](https://www.merkleinc.com/au/). My passion is helping to deliver Content Management Systems  ([Sitecore](https://www.sitecore.com/), [Episerver](https://www.episerver.com/), [Umbraco](https://umbraco.com/)) for some of Australias largest companies across Government, Automotive, Energy and Retail.
 
