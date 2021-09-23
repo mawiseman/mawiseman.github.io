@@ -57,6 +57,10 @@ social:
     - https://www.facebook.com/mark.wiseman
 
 # Build settings
+markdown:       kramdown
+include:
+  - _pages
+
 # theme: minima
 #plugins:
 #  - jekyll-feed
