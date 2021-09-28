@@ -61,6 +61,13 @@ markdown:       kramdown
 include:
   - _pages
 
+defaults:
+  -
+    scope:
+      path:            "google*.html"
+    values:
+      sitemap:         false
+
 # theme: minima
 #plugins:
 #  - jekyll-feed
