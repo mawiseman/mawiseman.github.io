@@ -1,0 +1,23 @@
+{
+    "subject": "acct:markwiseman@aus.social",
+    "aliases": [
+        "https://aus.social/@markwiseman",
+        "https://aus.social/users/markwiseman"
+    ],
+    "links": [
+        {
+            "rel": "http://webfinger.net/rel/profile-page",
+            "type": "text/html",
+            "href": "https://aus.social/@markwiseman"
+        },
+        {
+            "rel": "self",
+            "type": "application/activity+json",
+            "href": "https://aus.social/users/markwiseman"
+        },
+        {
+            "rel": "http://ostatus.org/schema/1.0/subscribe",
+            "template": "https://aus.social/authorize_interaction?uri={uri}"
+        }
+    ]
+}
