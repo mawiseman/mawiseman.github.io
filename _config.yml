@@ -60,6 +60,7 @@ social:
 markdown:       kramdown
 include:
   - _pages
+  - .well-known
 
 defaults:
   -
